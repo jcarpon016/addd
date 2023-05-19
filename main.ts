@@ -9,13 +9,13 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 let encendido = false
-radio.setGroup(1)
+radio.setGroup(16)
 encendido = false
 led.enable(encendido)
 basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
     `)
